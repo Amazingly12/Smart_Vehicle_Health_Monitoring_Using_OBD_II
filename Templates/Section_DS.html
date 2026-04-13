@@ -1,0 +1,88 @@
+<section class="page-section">
+            <div class="wrapper">
+                <label class="card-container">
+                    <input type="radio" name="dataset-selection" value="1">
+                    <div class="content-1">
+                        <div class="card-header">
+                            <h3>Vehicle Telematics</h3>
+                            <span class="route-tag">One Route</span>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li><strong>Records:</strong> Around 1,700 points</li>
+                                <li><strong>Features:</strong> 30 Parameters</li>
+                                <li><strong>Highlights:</strong> RPM, Speed, & Load</li>
+                            </ul>
+                            <p class="description">
+                                <strong>Description: </strong>This dataset contains detailed vehicle data that us help
+                                us understand how different engine
+                                factors are connected. By looking at things like Engine RPM, Throttle Position, and
+                                Coolant Temperature, the system
+                                creates a normal "Health Pattern" of the vehicle. <br>Using this pattern, LSTM model can
+                                spot small unusual changes
+                                like sudden pressure increases or temperature issues before they turn into serious
+                                problems. This helps in fixing
+                                issues early, even before any official error codes (DTCs) appear.
+                            </p>
+                        </div>
+                        <div class="tick-mark">✔</div>
+                    </div>
+                </label>
+
+                <label class="card-container">
+                    <input type="radio" name="dataset-selection" value="2">
+                    <div class="content-1">
+                        <div class="card-header">
+                            <h3>Vehicle Batch Diagnostics</h3>
+                            <span class="route-tag">Multi-Vehicle</span>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li><strong>Scale:</strong> Around 60,000 points across 14 cars</li>
+                                <li><strong>Diversity:</strong> Mixed Models (2003-2016)</li>
+                                <li><strong>Features:</strong> 33 parameters including DTC Faults</li>
+                            </ul>
+                            <p class="description">
+                                <strong>Description: </strong>This dataset includes data from many vehicles, giving a
+                                bigger picture of overall fleet health. It combines information from 14 vehicles
+                                and 15 drivers, along with details like vehicle brand, model year, and transmission
+                                type. <br>This helps the system compare different
+                                vehicles and understand what is normal wear and tear versus actual mechanical problems.
+                                As a result, it can be used to build models that
+                                predict issues across multiple vehicles and support large-scale maintenance planning.
+                            </p>
+                        </div>
+                        <div class="tick-mark">✔</div>
+                    </div>
+                </label>
+
+                <label class="card-container">
+                    <input type="radio" name="dataset-selection" value="3">
+                    <div class="content-1">
+                        <div class="card-header">
+                            <h3>Driver Behavior Study</h3>
+                            <span class="route-tag">20 Drivers x 1 Route</span>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li><strong>Density:</strong> Around 8,200 High-Frequency Records</li>
+                                <li><strong>Precision:</strong> Units-included Sensor Logs</li>
+                                <li><strong>Metrics:</strong> Timing Advance & Fuel Trims</li>
+                            </ul>
+                            <p class="description">
+                                <strong>Description: </strong>This dataset helps us understand how different driving
+                                styles affect a vehicle’s health over time. Here, by keeping the route the same, the
+                                system can separate vehicle wear caused by
+                                driving behavior from actual mechanical issues. It also tracks detailed engine data like
+                                fuel usage and timing. <br>Using this,
+                                the LSTM model learns how habits like harsh acceleration or too much idling impact fuel
+                                efficiency and engine stress.
+                                This makes it possible to create a personalized “Vehicle Health Score” that considers
+                                how a person drives, not just the condition of the vehicle.
+                            </p>
+                        </div>
+                        <div class="tick-mark">✔</div>
+                    </div>
+                </label>
+            </div>
+        </section>

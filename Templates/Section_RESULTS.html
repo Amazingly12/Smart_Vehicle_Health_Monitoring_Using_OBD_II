@@ -1,0 +1,56 @@
+<section id="results-section" class="page-section" style="display: none; background-color: #999; height: auto; min-height: 100vh; padding: 40px 0;">
+    <div class="wrapper" style="display: flex; flex-direction: column; align-items: center;">
+        
+        <div id="status-container" class="content-1" style="max-width: 900px; width: 95%; height: auto; padding: 30px; background: #999; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+            
+            <h2 id="dynamic-title" style="color: #E40046; margin-bottom: 20px; text-align: center;">Analysis Results</h2>
+
+            <div id="loading-spinner" style="display: none; text-align: center; margin: 20px 0;">
+                <p style="font-size: 1.2rem; font-weight: bold; color: #666;">Processing OBD-II Data...</p>
+                <div class="spinner"></div> 
+            </div>
+
+            <div id="lstm-results" style="display: none; width: 100%;">
+                <div style="display: flex; justify-content: space-around; align-items: center; margin-bottom: 25px;">
+                    <div style="text-align: center;">
+                        <h4 style="margin:0; color: #666; font-size: 1rem;">Health Score</h4>
+                        <span id="res-score" style="font-size: 3.5rem; font-weight: bold; color: #28a745;">--%</span>
+                    </div>
+                    <div style="text-align: center;">
+                        <h4 style="margin:0; color: #666; font-size: 1rem;">Faults</h4>
+                        <span id="res-faults" style="font-size: 3.5rem; font-weight: bold; color: #E40046;">0</span>
+                    </div>
+                </div>
+                <div style="width: 100%; text-align: center; border-top: 1px solid #777; padding-top: 15px; margin-bottom: 20px;">
+                    <p id="res-message" style="font-size: 1.2rem; font-weight: 500; font-style: italic; margin: 0; text-align: center;"></p>
+                </div>
+                <div id="future-error-chart" class="chart-box" style="margin-bottom: 20px;"></div>
+                <div id="health-decline-chart" class="chart-box"></div>
+            </div>
+
+            <div id="viz-results" style="display: none; width: 100%;">
+                <div class="selection-row" style="display: flex; justify-content: center; gap: 20px; margin-bottom: 25px;">
+                    <div class="select-group">
+                        <label>Primary Sensor</label>
+                        <select id="sensor1-select" class="custom-select"></select>
+                    </div>
+                    <div class="select-group">
+                        <label>Secondary Sensor</label>
+                        <select id="sensor2-select" class="custom-select"></select>
+                    </div>
+                </div>
+                
+                <div class="action-row" style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                    <button onclick="runVisualization()" class="generate-btn-1">
+                        Generate Comparison Graph
+                    </button>
+                    <div class="correlation-badge">
+                        Sensor Correlation: <span id="corr-val">--</span>
+                    </div>
+                </div>
+
+                <div id="plotly-chart" class="chart-box" style="margin-top: 20px;"></div>
+            </div>
+
+        </div> </div>
+</section>

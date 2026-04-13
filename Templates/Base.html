@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVHM Dashboard</title>
+    <link rel='stylesheet' href="Static/Main.css">
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+    {% include "Navbar.html" %}
+
+    <div class="main-container">
+        {% include "Section_1.html" %}
+        {% include "Section_DS.html" %}
+        {% include "Section_MS.html" %}
+        {% include "Section_RESULTS.html" %}
+    </div>
+
+    <script src="/Static/bridge.js"></script>
+</body>
+</html>
