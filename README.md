@@ -30,3 +30,35 @@ Dataset Architecture
 | **Batch Diagnostics** | ~60,000 records / 14 Vehicles | Mixed models analysis (2003 - 2016) |
 | **Driver Behaviour** | ~8,200 records / 20 Drivers | Timing Advance and Fuel trims analysis |
  
+-- Project Structure
+-
+```text
+Project_Vehicle_Monitoring/
+├── Project_SVHM/
+│   ├── Datasets/
+│   │   ├── Dataset_1.csv
+│   │   ├── Dataset_2.csv
+│   │   └── Dataset_3.csv
+│   ├── Static
+│   │   ├── Global.css
+│   │   ├── Layout.css
+│   │   ├── Main.css
+│   │   ├── StylingCards.css
+│   │   ├── StylingModelSelection.css
+│   │   ├── StylingResults.css
+│   │   ├── StylingSection.css
+│   │   ├── bgimage.avif
+│   │   └── bridge.js
+│   ├── Templates/
+│   │   ├── Base.html
+│   │   ├── Navbar.html
+│   │   ├── Section_1.html
+│   │   ├── Section_DS.html
+│   │   ├── Section_MS.html
+│   │   ├── Section_RESULTS.html
+│   │   └── Section_RESULTS.htmll
+│   ├── main.py
+│   ├── requirements.txt
+│   └── README.md
+```
+
