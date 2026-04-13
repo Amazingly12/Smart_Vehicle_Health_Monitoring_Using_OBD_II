@@ -1,0 +1,24 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Local environment folders)
+venv/
+.venv/
+env/
+bin/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS Specific junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment secrets (for security)
+.env
