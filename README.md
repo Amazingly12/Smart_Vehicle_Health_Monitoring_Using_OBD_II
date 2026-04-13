@@ -24,15 +24,9 @@ Features
 
 Dataset Architecture
 - 
-1 Vehicle Telematics 
-- Scale: ~1700 records| 30 Parameters.
-- Focus: Core engine metrics.
-
-2 Vehicle Batch Diagnostics
-- Scale: ~ 60,0000 records | 14 Vehicles.
-- Focus: Mixed models of cars (2003 - 2016).
-
-3 Driver Behaviour Study
-- Scale: ~8,200 records | 20 Drivers.
-- Focus: Logs including Timing Advance and Fuel trims.
+| Datasets | Scale | Primary Focus |
+| :--- | :--- | :--- |
+| **Vehicle Telematics** | ~1,700 records / 30 Params | Core engine metrics & health patterning |
+| **Batch Diagnostics** | ~60,000 records / 14 Vehicles | Mixed models analysis (2003 - 2016) |
+| **Driver Behaviour** | ~8,200 records / 20 Drivers | Timing Advance and Fuel trims analysis |
  
