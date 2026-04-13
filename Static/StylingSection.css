@@ -1,0 +1,50 @@
+.page-section:first-child {
+    background-image: url('bgimage.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    margin-top: 0;          
+    height: 100vh;              
+    padding-top: 90px;
+}
+
+.content-overlay {
+    color: black;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+}
+
+.content-overlay:hover {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.1);
+}
+
+.content-overlay h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    border-bottom: 2px solid #E40046;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.content-overlay p {
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.content-overlay hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 25px 0;
+}
+
+.content-overlay li {
+    margin-bottom: 12px;
+}
