@@ -76,7 +76,7 @@ How can you use it on your device?
    ```
 3. Run the Application
    ```Text
-   cd Project
+   cd Project_SVHM
    uvicorn main:app --reload
    ```
 
