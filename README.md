@@ -68,7 +68,7 @@ How can you use it on your device?
 -
 1. Clone the Repository
    ```Text
-   git clone [https://github.com/Amazingly12/Smart_Vehicle_Monitoring_Using_OBD_II.git](https://github.com/Amazingly12/Smart_Vehicle_Monitoring_Using_OBD_II.git)
+   git clone [https://github.com/Amazingly12/Smart_Vehicle_Health_Monitoring_Using_OBD_II.git](https://github.com/Amazingly12/Smart_Vehicle_Health_Monitoring_Using_OBD_II.git)
    ```
 2. Install Dependencies
    ```Text
